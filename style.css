@@ -1,47 +1,155 @@
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background: #f4f4f4;
-	color: #333;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 
 header {
-	background: #333;
-	color: white;
-	text-align: center;
-	padding: 2rem;
-}
-.profil{
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	border: 3px solid white;
-	margin-bottom: 1rem;
+    background-color: #c40000;
+    color: white;
+    padding: 20px;
 }
 
-nav{
-	background: #444;
-	padding: 1rem;
-	text-align: center;
+header h1 {
+    margin: 0;
 }
 
-nav a {
-	color: white;
-	margin: 0 15px;
-	text-decoration: none;
-	font-weight: bold ;
+header p {
+    margin-top: 10px;
 }
 
-section{
-	padding: 2rem;
-	background: white;
-	margin: 1rem;
-	border-radius: 18px;
-	box-shadow:0 0 10px #333;
+nav {
+    background-color: #e60000;
 }
 
-footer{
-	text-align: center;
-	padding: 1rem;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#contenu {
+    display: flex;
+    margin: 20px;
+}
+
+#menuhori {
+    width: 25%;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+#menuhori ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menuhori ul li {
+    margin-bottom: 10px;
+}
+
+section {
+    width: 75%;
+    padding: 15px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    float: left;
+    margin-right: 15px;
+    width: 120px;
+}
+
+footer {
+    background-color: #c40000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+#menuhori {
+    width: 25%;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.bloc-menu {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.bloc-menu h3 {
+    background-color: #c40000;
+    color: white;
+    margin: 0;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.bloc-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.bloc-menu ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+}
+article img {
+    width: 120px;      
+    float: left;      
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+form input, form textarea, form button{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+form button{
+    background:#f10e0e;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+form button:hover{
+    background:#1b263b;
+}
+
+p footer {
+    font-family: monospace; font-weight: bold;
+    background-color: #0d1b2a;
 }
